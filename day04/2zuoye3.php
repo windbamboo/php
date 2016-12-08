@@ -44,7 +44,22 @@ if ($_POST) {
         <option value="6">16to10</option>
     </select>
     <input type="submit" name="submit1" value="转换"/>
-    <input type="text" name="n2" value="<?php echo $n2;?>"/>
+    <input type="text" name="n2" value="<?php echo $n2; ?>"/>
 </form>
+//输出ASCII码的所有可见字符（编码为32-126的字符）
+//提示：chr( n )可以获得编码为n的字符。
+<?php
+echo "<table border='1'/>";
+
+for ($i = 32; $i <= 126; $i++) {
+    echo '<tr>';
+    echo "<th>$i</th>";
+    echo '<tr>';
+    echo '<tr>';
+    echo "<td>" . chr($i) . "</td>";
+    echo '<tr>';
+}
+echo "</table>";
+?>
 </body>
 </html>
