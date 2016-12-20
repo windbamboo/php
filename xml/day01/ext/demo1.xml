@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sample xmlns:peixun="http://www.aa.com" xmlns:tea="http://www.bb.com">
+	<peixun:betch-list>
+		<peixun:betch>第一批培训</peixun:betch>
+		<peixun:betch>第二批培训</peixun:betch>
+	</peixun:betch-list>
+	<tea:betch-list>
+		<tea:betch>第一批茶叶</tea:betch>
+		<tea:betch>第二批茶叶</tea:betch>
+	</tea:betch-list>
+</sample>

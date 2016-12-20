@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Breakfast_menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="demo2.xsd">
+	<Food>
+		<Name>中国早餐</Name>
+		<Description>两个鸡蛋</Description>
+		<Price>12.3</Price>
+	</Food>
+	<Food>
+		<Name></Name>
+		<Description></Description>
+		<Price>23.3</Price>
+	</Food>
+</Breakfast_menu>
