@@ -1,0 +1,12 @@
+[20-Dec-2016 06:29:47 UTC] PHP Notice:  Undefined property: DOMNodeList::$item in C:\wamp64\www\php\xml\day02\demo1.php on line 22
+[20-Dec-2016 06:29:47 UTC] PHP Stack trace:
+[20-Dec-2016 06:29:47 UTC] PHP   1. {main}() C:\wamp64\www\php\xml\day02\demo1.php:0
+[20-Dec-2016 06:29:47 UTC] PHP Notice:  Undefined property: DOMNodeList::$item in C:\wamp64\www\php\xml\day02\demo1.php on line 22
+[20-Dec-2016 06:29:47 UTC] PHP Stack trace:
+[20-Dec-2016 06:29:47 UTC] PHP   1. {main}() C:\wamp64\www\php\xml\day02\demo1.php:0
+[20-Dec-2016 06:29:47 UTC] PHP Notice:  Undefined property: DOMNodeList::$item in C:\wamp64\www\php\xml\day02\demo1.php on line 22
+[20-Dec-2016 06:29:47 UTC] PHP Stack trace:
+[20-Dec-2016 06:29:47 UTC] PHP   1. {main}() C:\wamp64\www\php\xml\day02\demo1.php:0
+[20-Dec-2016 06:29:47 UTC] PHP Notice:  Undefined property: DOMNodeList::$item in C:\wamp64\www\php\xml\day02\demo1.php on line 22
+[20-Dec-2016 06:29:47 UTC] PHP Stack trace:
+[20-Dec-2016 06:29:47 UTC] PHP   1. {main}() C:\wamp64\www\php\xml\day02\demo1.php:0
