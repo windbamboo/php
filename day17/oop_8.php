@@ -18,4 +18,36 @@ abstract class  Goods implements I_Goods
     {
         echo 'userAutoload<br>';
     }
+
+
 }
+
+class  A extends Goods
+{
+
+    public function setName($name)
+    {
+        echo "<br/>set Name";
+    }
+
+    public function setPrice($name)
+    {
+        echo "<br/>set Price";
+    }
+}
+
+
+function __autoload($className)
+{
+    echo "<br/>autoload";
+    $file = $className . ".class.php";
+    if (is_file($file)) {
+        require_once($file);
+    }
+}
+
+$a = new A();
+$a->setName("xxxx");
+
+$teacher =new Teacher();
+$teacher->say();
