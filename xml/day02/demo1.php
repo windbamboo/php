@@ -22,5 +22,6 @@ for ($i = 0; $i < $title->length; $i++) {
     echo "<tr><td>" . $title->item($i)->nodeValue . "</td ><td >" . $content->item($i)->nodeValue . "</td></tr>";
 
 }
+
 echo "</table>";
 
